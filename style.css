@@ -1355,7 +1355,7 @@ img {
         flex-direction: column;
         text-align: center;
         padding: 1rem 0;
-        background-color: var(--card-bg-dark); /* Use card-bg-dark for dropdown */
+        background-color: linear-gradient(135deg, #0a122a, #071a52); /* Use card-bg-dark for dropdown */
         border-top: 1px solid var(--border-blue);
     }
 
@@ -1446,3 +1446,4 @@ img {
         font-size: 0.95rem;
     }
 }
+
