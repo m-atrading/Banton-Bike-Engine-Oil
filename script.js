@@ -1,10 +1,3 @@
-// এই স্ক্রিপ্টটি মোবাইল নেভিগেশন টগল এবং প্রোডাক্ট ডিটেইলস টগল ফাংশনালিটি হ্যান্ডেল করে।
-
-/**
- * মোবাইল ডিভাইসের জন্য নেভিগেশন মেনু টগল করে।
- * যখন navbar-toggle-btn এ ক্লিক করা হয়, তখন 'navbar' এলিমেন্টে 'active' ক্লাস যোগ বা অপসারণ করে।
- * 'active' ক্লাসটি CSS দ্বারা মেনু প্রদর্শন বা লুকানোর জন্য ব্যবহৃত হয়।
- */
 function toggleNavbar() {
     const navbar = document.getElementById('navbar');
     if (navbar) {
@@ -12,10 +5,6 @@ function toggleNavbar() {
     }
 }
 
-/**
- * DOM কন্টেন্ট লোড হওয়ার পর ইভেন্ট লিসেনার যোগ করে।
- * এটি নিশ্চিত করে যে স্ক্রিপ্টটি HTML এলিমেন্টগুলো উপলব্ধ হওয়ার পরেই কাজ করবে।
- */
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.details-toggle-btn');
 
